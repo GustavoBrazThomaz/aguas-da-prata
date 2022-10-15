@@ -1,0 +1,126 @@
+.header-bar{
+    height: 2.6rem;
+    background-color: rgb(7 81 181);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button-header button{
+    color: white;
+    font-size: 1rem;
+    background-color: rgb(4 59 124);
+    border: none;
+    padding: 0.3rem 0.5rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+
+.button-header button:first-child{
+    margin-left: 0;
+}
+
+.button-header i{
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content-header a{
+    color: white;
+    margin-right: 1rem;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+}
+
+.brasao-container{
+    display: flex;
+    align-items: center;
+}
+
+.brasao-logo{
+    width: 90px;
+}
+
+.brasao-text-container{
+    margin-left: 1rem;
+}
+
+.brasao-text{
+    color: rgb(0 43 148);
+}
+
+
+.search-container{
+    display: flex;
+    align-items: center;
+}
+
+.social-media-img{
+    margin-left: 4rem;
+}
+
+.icon-facebook{
+    color: rgb(0 119 213);
+    font-size: 2rem;
+}
+
+.icon-instagram{
+    color: #ef629f;
+    font-size: 2rem;
+}
+
+.input-container{
+    display: flex;
+    margin-left: 2rem;
+}
+
+.input-container input{
+    height: 1.8rem;
+    padding: 0.2rem;
+    border-radius: 0.4rem 0 0 0.4rem;
+    border: 0.5px solid rgb(71, 71, 71);
+}
+
+.search-button{
+    border: 0;
+    color: white;
+    width: 2rem;
+    border-radius: 0 0.3rem 0.3rem 0;
+    background-color: rgb(16 100 198);
+}
+
+.icon-search{
+    color: white;
+}
+
+.navbar-container{
+    height: 4rem;
+    margin-top: 1rem;
+    background-color: rgb(0 44 133);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-text:first-child{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.navbar-text{
+    color: white;
+    margin-left: 2rem;
+    font-size: 1rem;
+    text-decoration: none;
+}

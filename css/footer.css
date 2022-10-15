@@ -1,0 +1,144 @@
+.custom-shape-divider-bottom-1665859825 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1665859825 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 103px;
+}
+
+.custom-shape-divider-bottom-1665859825 .shape-fill {
+    fill: #002C85;
+}
+
+.footer{
+    height: 500px;
+    background-color: #002C85;
+    width: 100%;
+}
+
+.list-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 150px;
+}
+
+.list-card{
+    margin-top: 5rem;
+    width: 300px;
+}
+
+.list-card h1{
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.list-card i{
+    color: white;
+    font-size: 1rem;
+}
+
+.list-card li{
+    color: white;
+    border-bottom: 1px solid white;
+    width: 300px;
+    margin: 2rem 0;
+    font-size: 1.2rem;
+}
+
+.button-list-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.list-button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: rgb(220 167 0);
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.footer-info{
+    height: 200px;
+    background-color: rgb(1 22 85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-info-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer-info-card-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.footer-info-card-logo img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.text-brasao{
+    margin-left: 2rem;
+}
+
+.text-brasao p{
+    color: white;
+}
+
+.text-brasao h1{
+    color: white;
+}
+
+.footer-info-card-text li:first-child{
+    font-weight: 900;
+    font-size: 1.1rem;
+    color: white;
+    list-style-type: none;
+}
+
+.footer-info-card-text li{
+    color: white;
+    list-style-type: none;
+}
+
+.footer-info-card-second-text li{
+    color: white;
+    list-style-type: none;
+}
+
+.footer-info-card-madeby p{
+    color: white;
+}
+
+.footer-info-card-madeby a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
