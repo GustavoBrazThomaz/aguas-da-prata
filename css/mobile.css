@@ -1,0 +1,283 @@
+@media screen and (max-width: 1440px){
+    .principal-services-card button{
+        max-width: 300px;
+        min-width: 250px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1330px){
+    .video-card iframe{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    
+    .social-media-img{
+        margin-left: 2rem;
+    }
+
+    .list-container{
+        grid-template-columns: auto auto;
+    }
+
+    .list-card:last-child{
+        margin-top: -5rem;
+        margin-bottom: 3rem;
+    }
+
+    .video-card iframe{
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+
+    .navbar-container{
+        height: 10rem;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        padding: 1rem;
+    }
+
+    .footer-info-container{
+        gap: 30px
+    }
+
+    .principal-services-container{
+        grid-template-columns: auto auto auto;
+        padding: 1rem;
+    }
+
+    .card-container{
+        grid-template-columns: auto auto;
+    }
+    
+    .turismo-container{
+        grid-template-columns: auto auto;
+    }
+
+    .galeria-container{
+        grid-template-columns: auto auto;
+    }
+
+    .video-container{
+        grid-template-columns: auto auto;
+    }
+
+    .info-container{
+        grid-template-columns: auto auto;
+    }
+
+    .footer-info-container{
+        grid-template-columns: auto auto;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .header-bar{
+        flex-direction: column;
+        height: 7rem;
+        padding: 1rem;
+    }
+
+
+    .principal-services-card button{
+        max-width: 300px;
+        min-width: 150px;
+        width: 100%;
+    }
+
+    .content-header{
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .logo-container{
+        flex-direction: column;
+    }
+
+    .search-container{
+        flex-direction: column;
+    }
+
+    .search-container span{
+        margin: 1rem 0;
+    }
+
+    .social-media-img{
+        margin-bottom: 1rem;
+        margin-left: 0;
+    }
+
+    .input-container{
+        margin-left: 0;
+    }
+
+    .navbar-container{
+        height: 10rem;
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 1rem;
+    }
+
+}
+@media screen and (max-width: 667px) {
+    .header-bar{
+        flex-direction: column;
+        height: 7rem;
+        padding: 1rem;
+    }
+
+    .content-header{
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .logo-container{
+        flex-direction: column;
+    }
+
+    .search-container{
+        flex-direction: column;
+    }
+
+    .search-container span{
+        margin: 1rem 0;
+    }
+
+    .social-media-img{
+        margin-bottom: 1rem;
+        margin-left: 0;
+    }
+
+    .input-container{
+        margin-left: 0;
+    }
+
+    .navbar-container{
+        height: 10rem;
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 1rem;
+    }
+
+    .card-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .card-news{
+        padding: 1rem;
+    }
+
+    .card-news-mobile{
+        display: none;
+    }
+
+    .see-more-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .see-more{
+        width: 300px;
+    }
+    
+    .principal-services-container{
+        grid-template-columns: auto auto;
+        gap: 10px;
+        row-gap: 10px;
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+
+    .principal-services-card button{
+        padding: 0px;
+    }
+
+    .turismo-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .galeria-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .video-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .video-card iframe{
+        width: 300px;
+    }
+
+    .info-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .list-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .list-card:first-child{
+        margin-top: 0rem;
+    }
+
+    .list-card{
+        margin-top: -6rem;
+    }
+
+    .list-card:last-child{
+        margin-bottom: 3rem;
+    }
+
+    .footer-info-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-info-card-logo{
+        margin-top: 3rem;
+    }
+
+    .footer-info-card-madeby{
+        margin-bottom: 3rem;
+    }
+
+    .text-brasao{
+        margin-left: 0.5rem;
+    }
+
+}   

@@ -20,7 +20,8 @@
 }
 
 .footer{
-    height: 500px;
+    height: 100%;
+    min-height: 500px;
     background-color: #002C85;
     width: 100%;
 }
@@ -33,11 +34,13 @@
     margin: 0 auto;
     justify-content: center;
     gap: 150px;
+    padding: 1rem;
 }
 
 .list-card{
     margin-top: 5rem;
     width: 300px;
+    margin-bottom: 1rem;
 }
 
 .list-card h1{
@@ -77,7 +80,8 @@
 }
 
 .footer-info{
-    height: 200px;
+    height: 100%;
+    min-height: 200px;
     background-color: rgb(1 22 85);
     display: flex;
     justify-content: center;
