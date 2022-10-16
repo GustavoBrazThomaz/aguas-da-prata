@@ -72,11 +72,13 @@
 .icon-facebook{
     color: rgb(0 119 213);
     font-size: 2rem;
+    cursor: pointer;
 }
 
 .icon-instagram{
     color: #ef629f;
     font-size: 2rem;
+    cursor: pointer;
 }
 
 .input-container{
@@ -97,6 +99,7 @@
     width: 2rem;
     border-radius: 0 0.3rem 0.3rem 0;
     background-color: rgb(16 100 198);
+    cursor: pointer;
 }
 
 .icon-search{
